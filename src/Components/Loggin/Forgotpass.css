@@ -1,0 +1,78 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    
+  }
+  
+  .passwrodContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35em;
+    height: 45vh;
+    border-radius: 25px;
+    background-color: aliceblue;
+  
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  .input-container input{
+    height: 1.5em;
+    width: 15em;
+    border-radius: 15px;
+    border-width: 15px;
+    border:white;
+    box-shadow: 0 0 6px rgb(166, 159, 255);
+    outline: none;
+    padding:10px;
+    font-size: 20px;
+  }
+  input:focus{   
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(125, 115, 255);
+    outline: 0 none;
+  }
+  a{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+    align-self: baseline;
+    margin-left: 40px;
+  }
+  .Next {
+    height: 4em;
+    width: 24em;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: none;
+    transition: all .2s ease-in-out;
+    background: #673AB7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  .Next:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgb(199, 199, 199);
+  }
+  .Next p{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 13px;
+  }
+  body{
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+  }
+  

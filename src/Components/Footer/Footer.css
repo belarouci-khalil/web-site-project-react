@@ -1,0 +1,19 @@
+/* Footer.css */
+footer{
+    background-color: #f2f2f2;
+    height: 40px; /* Set the desired height for the footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  

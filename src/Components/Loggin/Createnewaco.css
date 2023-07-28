@@ -1,0 +1,98 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526); 
+    
+  }
+  
+  .SingnupContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35em;
+    height: 100vh;
+    border-radius: 25px;
+    background-color: aliceblue;
+  
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  .input-container input{
+    height: 1.5em;
+    width: 15em;
+    border-radius: 15px;
+    border-width: 15px;
+    border:white;
+    box-shadow: 0 0 6px rgb(166, 159, 255);
+    outline: none;
+    padding:10px;
+    font-size: 20px;
+  }
+  input:focus{   
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(125, 115, 255);
+    outline: 0 none;
+  }
+  a{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+    align-self: baseline;
+    margin-left: 40px;
+  }
+  .SingnupBut{
+    height: 4em;
+    width: 24em;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: none;
+    transition: all .2s ease-in-out;
+    background: #673AB7; 
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7); 
+    background: linear-gradient(to right, #512DA8, #673AB7);
+    
+  }
+  .SingnupBut:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgb(199, 199, 199);
+  }
+  .SingnupBut p{
+    color:white;
+    font-size: 20px;
+    margin-top: 13px;
+  }
+  .siG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:18px;
+    height: 4em;
+    width: 24em;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color:black ;
+    border-width: 3px;
+    border-style: dashed;
+    transition: all .2s ease-in-out;
+  }
+  .siG:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgb(199, 199, 199);
+    cursor: pointer;
+  }
+  .siG p{
+    font-size: 20px;
+  }
+
+  
